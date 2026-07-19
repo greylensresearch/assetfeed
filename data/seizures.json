@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-07-19T06:15:00.000Z",
+  "itemCount": 9,
+  "categoryCounts": {
+    "rotorcraft": 1,
+    "airplanes": 1,
+    "watercraft": 2,
+    "vehicles": 2,
+    "crypto": 1,
+    "financial": 1,
+    "properties": 1
+  },
+  "sourceCount": 10,
+  "items": [
+    {
+      "id": "sample-1",
+      "title": "Federal agents seize $38 million superyacht linked to sanctioned oligarch",
+      "link": "https://www.justice.gov/opa/pr/sample-yacht-seizure",
+      "summary": "The Justice Department announced the forfeiture of a 258-foot superyacht docked in Fort Lauderdale, part of a wider sanctions enforcement action.",
+      "publishedAt": "2026-07-18T14:20:00.000Z",
+      "source": "U.S. Department of Justice",
+      "sourceId": "us-doj",
+      "region": "United States",
+      "tier": "official",
+      "category": "watercraft",
+      "categories": ["watercraft"]
+    },
+    {
+      "id": "sample-2",
+      "title": "Europol dismantles crypto laundering network, freezes $19 million in digital assets",
+      "link": "https://www.europol.europa.eu/media-press/newsroom/sample-crypto",
+      "summary": "A coordinated operation across five member states led to the seizure of cryptocurrency wallets tied to a ransomware payment network.",
+      "publishedAt": "2026-07-18T09:05:00.000Z",
+      "source": "Europol",
+      "sourceId": "eu-europol",
+      "region": "European Union",
+      "tier": "official",
+      "category": "crypto",
+      "categories": ["crypto"]
+    },
+    {
+      "id": "sample-3",
+      "title": "NCA seizes fleet of luxury vehicles in London money laundering raid",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/sample-vehicles",
+      "summary": "Officers seized a Bentley, two Range Rovers, and a Rolls-Royce believed to have been purchased with laundered funds.",
+      "publishedAt": "2026-07-17T16:40:00.000Z",
+      "source": "UK National Crime Agency",
+      "sourceId": "uk-nca",
+      "region": "United Kingdom",
+      "tier": "official",
+      "category": "vehicles",
+      "categories": ["vehicles"]
+    },
+    {
+      "id": "sample-4",
+      "title": "Private jet and helicopter forfeited in cross-border corruption case",
+      "link": "https://www.justice.gov/opa/pr/sample-jet-heli",
+      "summary": "A Gulfstream jet and an executive helicopter were forfeited following a multi-year investigation into bribery involving a state-owned enterprise.",
+      "publishedAt": "2026-07-17T11:10:00.000Z",
+      "source": "U.S. Department of Justice",
+      "sourceId": "us-doj",
+      "region": "United States",
+      "tier": "official",
+      "category": "airplanes",
+      "categories": ["airplanes", "rotorcraft"]
+    },
+    {
+      "id": "sample-5",
+      "title": "Belgian villa and bank accounts frozen in money laundering probe",
+      "link": "https://www.europol.europa.eu/media-press/newsroom/sample-villa",
+      "summary": "Investigators froze several bank accounts and seized a coastal villa believed to hold proceeds from an investment fraud scheme.",
+      "publishedAt": "2026-07-16T08:30:00.000Z",
+      "source": "Europol",
+      "sourceId": "eu-europol",
+      "region": "European Union",
+      "tier": "official",
+      "category": "properties",
+      "categories": ["properties", "financial"]
+    },
+    {
+      "id": "sample-6",
+      "title": "Singapore authorities seize luxury sedans and cash in wide-ranging fraud sweep",
+      "link": "https://news.google.com/rss/sample-singapore",
+      "summary": "Local police reported the seizure of several imported luxury sedans along with an undisclosed amount of cash.",
+      "publishedAt": "2026-07-15T21:00:00.000Z",
+      "source": "Google News",
+      "sourceId": "gnews-vehicles",
+      "region": "Global",
+      "tier": "aggregated",
+      "category": "vehicles",
+      "categories": ["vehicles", "financial"]
+    },
+    {
+      "id": "sample-7",
+      "title": "Colombian navy seizes vessel carrying suspected narcotics off Caribbean coast",
+      "link": "https://news.google.com/rss/sample-colombia",
+      "summary": "A cargo vessel was intercepted and seized in a joint operation with regional maritime authorities.",
+      "publishedAt": "2026-07-15T05:15:00.000Z",
+      "source": "Google News",
+      "sourceId": "gnews-watercraft",
+      "region": "Global",
+      "tier": "aggregated",
+      "category": "watercraft",
+      "categories": ["watercraft"]
+    },
+    {
+      "id": "sample-8",
+      "title": "UK court orders forfeiture of penthouse apartment tied to unexplained wealth order",
+      "link": "https://www.nationalcrimeagency.gov.uk/news/sample-penthouse",
+      "summary": "The NCA secured forfeiture of a central London penthouse following one of the UK's longest-running unexplained wealth order cases.",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "source": "UK National Crime Agency",
+      "sourceId": "uk-nca",
+      "region": "United Kingdom",
+      "tier": "official",
+      "category": "properties",
+      "categories": ["properties"]
+    },
+    {
+      "id": "sample-9",
+      "title": "DOJ forfeits $12.3 million in bank accounts linked to romance scam network",
+      "link": "https://www.justice.gov/opa/pr/sample-financial",
+      "summary": "Funds held across several bank accounts were forfeited following an investigation into a transnational romance scam operation.",
+      "publishedAt": "2026-07-13T17:45:00.000Z",
+      "source": "U.S. Department of Justice",
+      "sourceId": "us-doj",
+      "region": "United States",
+      "tier": "official",
+      "category": "financial",
+      "categories": ["financial"]
+    }
+  ]
+}

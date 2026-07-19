@@ -1,0 +1,85 @@
+{
+  "_comment": "Edit this file to add/remove feeds. 'kind': 'rss' for a direct agency/institution feed, 'google_news' for a Google News RSS search query (used to fill global gaps where an agency has no public feed). Nothing here costs money — all endpoints are free public feeds.",
+  "feeds": [
+    {
+      "id": "us-doj",
+      "name": "U.S. Department of Justice",
+      "region": "United States",
+      "kind": "rss",
+      "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+      "tier": "official"
+    },
+    {
+      "id": "eu-europol",
+      "name": "Europol",
+      "region": "European Union",
+      "kind": "rss",
+      "url": "https://www.europol.europa.eu/cms/api/rss/news",
+      "tier": "official"
+    },
+    {
+      "id": "uk-nca",
+      "name": "UK National Crime Agency",
+      "region": "United Kingdom",
+      "kind": "rss",
+      "url": "https://www.nationalcrimeagency.gov.uk/news?format=feed&type=rss",
+      "tier": "official"
+    },
+    {
+      "id": "gnews-vehicles",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "(car OR vehicle OR vehicles OR SUV OR \"luxury cars\") (seized OR seizure OR forfeited OR confiscated)",
+      "tier": "aggregated"
+    },
+    {
+      "id": "gnews-watercraft",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "(yacht OR superyacht OR vessel OR boat) (seized OR seizure OR forfeited OR confiscated)",
+      "tier": "aggregated"
+    },
+    {
+      "id": "gnews-air",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "(\"private jet\" OR aircraft OR airplane OR helicopter) (seized OR seizure OR forfeited OR confiscated)",
+      "tier": "aggregated"
+    },
+    {
+      "id": "gnews-property",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "(mansion OR villa OR estate OR property OR properties) (seized OR seizure OR forfeited OR confiscated)",
+      "tier": "aggregated"
+    },
+    {
+      "id": "gnews-financial",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "(\"bank accounts\" OR cash OR funds OR assets) (frozen OR seized OR forfeited) sanctions",
+      "tier": "aggregated"
+    },
+    {
+      "id": "gnews-crypto",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "(bitcoin OR cryptocurrency OR crypto OR ethereum OR \"digital assets\") (seized OR seizure OR forfeited OR confiscated)",
+      "tier": "aggregated"
+    },
+    {
+      "id": "gnews-interpol",
+      "name": "Google News",
+      "region": "Global",
+      "kind": "google_news",
+      "query": "Interpol OR Europol OR \"asset recovery\" seized assets",
+      "tier": "aggregated"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "assetfeed",
+  "version": "1.0.0",
+  "description": "Global asset seizure and forfeiture tracker — daily-refreshed static dashboard.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fast-xml-parser": "^5.10.1"
+  }
+}
