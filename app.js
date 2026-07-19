@@ -80,17 +80,6 @@ function renderStats(data) {
   `).join("");
 }
 
-function renderTicker(items) {
-  const latest = items.slice(0, 12);
-  if (latest.length === 0) {
-    document.getElementById("ticker-outer").style.display = "none";
-    return;
-  }
-  const row = latest.map((it) => `
-    <span class="ticker-item">${escapeHtml(it.title)} <span>— ${escapeHtml(it.source)}</span></span>
-  `).join("");
-  document.getElementById("ticker-track").innerHTML = row + row;
-}
 
 function renderCategoryPills(data) {
   const counts = data.categoryCounts || {};
@@ -188,7 +177,6 @@ async function init() {
   state.items = data.items || [];
   renderHeader(data);
   renderStats(data);
-  renderTicker(state.items);
   render();
 
   document.getElementById("search-input").addEventListener("input", (e) => {
